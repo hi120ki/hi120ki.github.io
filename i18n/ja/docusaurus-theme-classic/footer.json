@@ -1,0 +1,94 @@
+{
+  "link.title.Docs": {
+    "message": "Docs",
+    "description": "The title of the footer links column with title=Docs in the footer"
+  },
+  "link.title.Community": {
+    "message": "Community",
+    "description": "The title of the footer links column with title=Community in the footer"
+  },
+  "link.title.More": {
+    "message": "More",
+    "description": "The title of the footer links column with title=More in the footer"
+  },
+  "link.item.label.Tutorial": {
+    "message": "Tutorial",
+    "description": "The label of footer link with label=Tutorial linking to /docs/intro"
+  },
+  "link.item.label.Stack Overflow": {
+    "message": "Stack Overflow",
+    "description": "The label of footer link with label=Stack Overflow linking to https://stackoverflow.com/questions/tagged/docusaurus"
+  },
+  "link.item.label.Discord": {
+    "message": "Discord",
+    "description": "The label of footer link with label=Discord linking to https://discordapp.com/invite/docusaurus"
+  },
+  "link.item.label.X": {
+    "message": "X",
+    "description": "The label of footer link with label=X linking to https://x.com/hi120ki"
+  },
+  "link.item.label.Blog": {
+    "message": "Blog",
+    "description": "The label of footer link with label=Blog linking to /blog"
+  },
+  "link.item.label.GitHub": {
+    "message": "GitHub",
+    "description": "The label of footer link with label=GitHub linking to https://github.com/hi120ki"
+  },
+  "copyright": {
+    "message": "Copyright © 2025 hi120ki. Built with Docusaurus.",
+    "description": "The footer copyright"
+  },
+  "link.title.Sections": {
+    "message": "Sections",
+    "description": "The title of the footer links column with title=Sections in the footer"
+  },
+  "link.title.Documents": {
+    "message": "Documents",
+    "description": "The title of the footer links column with title=Documents in the footer"
+  },
+  "link.title.Socials": {
+    "message": "Socials",
+    "description": "The title of the footer links column with title=Socials in the footer"
+  },
+  "link.item.label.About Me": {
+    "message": "About Me",
+    "description": "The label of footer link with label=About Me linking to /"
+  },
+  "link.item.label.Documents": {
+    "message": "Documents",
+    "description": "The label of footer link with label=Documents linking to /docs/intro"
+  },
+  "link.item.label.AI Security": {
+    "message": "AI Security",
+    "description": "The label of footer link with label=AI Security linking to /docs/ai-security/intro"
+  },
+  "link.item.label.Cloud Security": {
+    "message": "Cloud Security",
+    "description": "The label of footer link with label=Cloud Security linking to /docs/cloud-security/intro"
+  },
+  "link.item.label.Kubernetes Security": {
+    "message": "Kubernetes Security",
+    "description": "The label of footer link with label=Kubernetes Security linking to /docs/kubernetes-security/intro"
+  },
+  "link.item.label.Web Security": {
+    "message": "Web Security",
+    "description": "The label of footer link with label=Web Security linking to /docs/web-security/intro"
+  },
+  "link.item.label.Pentest": {
+    "message": "Pentest",
+    "description": "The label of footer link with label=Pentest linking to /docs/pentest/intro"
+  },
+  "link.item.label.Web Performance": {
+    "message": "Web Performance",
+    "description": "The label of footer link with label=Web Performance linking to /docs/web-performance/intro"
+  },
+  "link.item.label.LinkedIn": {
+    "message": "LinkedIn",
+    "description": "The label of footer link with label=LinkedIn linking to https://www.linkedin.com/in/hi120ki"
+  },
+  "link.item.label.GitHub Repository": {
+    "message": "GitHub Repository",
+    "description": "The label of footer link with label=GitHub Repository linking to https://github.com/hi120ki/hi120ki.github.io"
+  }
+}

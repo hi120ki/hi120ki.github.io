@@ -1,0 +1,204 @@
+Web:
+  label: Web
+  permalink: /web
+  description: Articles about the Web
+
+Blog:
+  label: Blog
+  permalink: /blog
+  description: Articles about blog management and writing
+
+Hugo:
+  label: Hugo
+  permalink: /hugo
+  description: Articles about Hugo
+
+GitHub:
+  label: GitHub
+  permalink: /github
+  description: Articles about GitHub
+
+Fish shell:
+  label: Fish shell
+  permalink: /fish-shell
+  description: Articles about Fish shell
+
+CTF:
+  label: CTF
+  permalink: /ctf
+  description: Articles about CTF and security competitions
+
+Encoding:
+  label: Encoding
+  permalink: /encoding
+  description: Articles about character encoding
+
+Google Apps Script:
+  label: Google Apps Script
+  permalink: /google-apps-script
+  description: Articles about Google Apps Script
+
+LINE:
+  label: LINE
+  permalink: /line
+  description: Articles about LINE and LINE API
+
+API:
+  label: API
+  permalink: /api
+  description: Articles about APIs
+
+Vagrant:
+  label: Vagrant
+  permalink: /vagrant
+  description: Articles about Vagrant
+
+Nuxt.js:
+  label: Nuxt.js
+  permalink: /nuxtjs
+  description: Articles about Nuxt.js
+
+webpack:
+  label: webpack
+  permalink: /webpack
+  description: Articles about webpack
+
+Web Security:
+  label: Web Security
+  permalink: /web-security
+  description: Articles about web security
+
+Manjaro Linux:
+  label: Manjaro Linux
+  permalink: /manjaro-linux
+  description: Articles about Manjaro Linux
+
+Linux:
+  label: Linux
+  permalink: /linux
+  description: Articles about Linux in general
+
+SEO:
+  label: SEO
+  permalink: /seo
+  description: Articles about SEO and search engine optimization
+
+RSA:
+  label: RSA
+  permalink: /rsa
+  description: Articles about RSA encryption
+
+Cryptography:
+  label: Cryptography
+  permalink: /cryptography
+  description: Articles about cryptography and cryptographic theory
+
+AWS:
+  label: AWS
+  permalink: /aws
+  description: Articles about AWS
+
+Reversing:
+  label: Reversing
+  permalink: /reversing
+  description: Articles about reverse engineering
+
+Wani Hackase:
+  label: Wani Hackase
+  permalink: /wani-hackase
+  description: Articles about the Wani Hackase team
+
+Misc:
+  label: Misc
+  permalink: /misc
+  description: Miscellaneous articles
+
+WaniCTF:
+  label: WaniCTF
+  permalink: /wanictf
+  description: Articles about the WaniCTF competition
+
+Docker:
+  label: Docker
+  permalink: /docker
+  description: Articles about Docker
+
+SECCON:
+  label: SECCON
+  permalink: /seccon
+  description: Articles about SECCON competitions and related events
+
+ctf4b:
+  label: ctf4b
+  permalink: /ctf4b
+  description: Articles about ctf4b (CTF for Beginners)
+
+大阪大学:
+  label: 大阪大学
+  permalink: /osaka-univ
+  description: Articles about Osaka University and student life
+
+SecHack365:
+  label: SecHack365
+  permalink: /sechack365
+  description: Articles about the SecHack365 program and experiences
+
+Ubuntu:
+  label: Ubuntu
+  permalink: /ubuntu
+  description: Articles about Ubuntu and Linux distributions
+
+network:
+  label: network
+  permalink: /network
+  description: Articles about networks, routers, and communication technologies
+
+Internship:
+  label: Internship
+  permalink: /internship
+  description: Articles about internships and work experiences
+
+Windows:
+  label: Windows
+  permalink: /windows
+  description: Articles about Windows
+
+Ghidra:
+  label: Ghidra
+  permalink: /ghidra
+  description: Articles about Ghidra (reverse engineering tool)
+
+Reverse Engineering:
+  label: Reverse Engineering
+  permalink: /reverse-engineering
+  description: Articles about reverse engineering
+
+Team:
+  label: Team
+  permalink: /team
+  description: Articles about team activities and teams
+
+fisher:
+  label: fisher
+  permalink: /fisher
+  description: Articles about "fisher", the plugin manager for fish shell
+
+Git:
+  label: Git
+  permalink: /git
+  description: Articles about Git and version control
+
+Security:
+  label: Security
+  permalink: /security
+  description: Articles about security in general
+
+Firmware:
+  label: Firmware
+  permalink: /firmware
+  description: Articles about firmware and embedded devices
+
+Writeup:
+  label: Writeup
+  permalink: /writeup
+  description: Articles about writeups (explanatory articles and reports)

@@ -1,0 +1,62 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #1976d2;
+  --ifm-color-primary-dark: #1565c0;
+  --ifm-color-primary-darker: #0d47a1;
+  --ifm-color-primary-darkest: #002171;
+  --ifm-color-primary-light: #42a5f5;
+  --ifm-color-primary-lighter: #90caf9;
+  --ifm-color-primary-lightest: #e3f2fd;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme="dark"] {
+  --ifm-color-primary: #42a5f5;
+  --ifm-color-primary-dark: #1976d2;
+  --ifm-color-primary-darker: #1565c0;
+  --ifm-color-primary-darkest: #0d47a1;
+  --ifm-color-primary-light: #90caf9;
+  --ifm-color-primary-lighter: #bbdefb;
+  --ifm-color-primary-lightest: #e3f2fd;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+.footer {
+  --ifm-footer-background-color: #202020;
+}
+
+.blog-list-page h2[class*="title"] {
+  font-size: 2rem;
+}
+
+.blog-list-page h2 {
+  font-size: 1.5rem;
+}
+
+.blog-list-page .avatar {
+  display: none;
+}
+
+.blog-post-page h1[class*="title"] {
+  font-size: 2rem;
+}
+
+.blog-post-page h2 {
+  font-size: 1.5rem;
+}
+
+.blog-post-page h3 {
+  font-size: 1.25rem;
+}
+
+.blog-post-page .avatar {
+  display: none;
+}

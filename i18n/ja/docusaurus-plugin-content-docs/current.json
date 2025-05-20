@@ -1,0 +1,50 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Tutorial - Basics": {
+    "message": "Tutorial - 基本",
+    "description": "The label for category Tutorial - Basics in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Tutorial - Basics.link.generated-index.description": {
+    "message": "5 minutes to learn the most important Docusaurus concepts.",
+    "description": "The generated-index page description for category Tutorial - Basics in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Tutorial - Extras": {
+    "message": "Tutorial - Extras",
+    "description": "The label for category Tutorial - Extras in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.AI Security": {
+    "message": "AI Security",
+    "description": "The label for category AI Security in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Cloud Security": {
+    "message": "Cloud Security",
+    "description": "The label for category Cloud Security in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.GitHub Security": {
+    "message": "GitHub Security",
+    "description": "The label for category GitHub Security in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Kubernetes Security": {
+    "message": "Kubernetes Security",
+    "description": "The label for category Kubernetes Security in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Web Security": {
+    "message": "Web Security",
+    "description": "The label for category Web Security in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Pentest": {
+    "message": "Pentest",
+    "description": "The label for category Pentest in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Tools": {
+    "message": "Tools",
+    "description": "The label for category Tools in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Web Performance": {
+    "message": "Web Performance",
+    "description": "The label for category Web Performance in sidebar tutorialSidebar"
+  }
+}

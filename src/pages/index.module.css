@@ -1,0 +1,77 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+.section {
+  padding: 1rem 0;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.sectionTitle {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.timelineItem {
+  margin-bottom: 2rem;
+}
+
+.timelineDate {
+  font-weight: 600;
+  color: #666;
+}
+
+.timelineItem h3 {
+  margin-bottom: 1rem;
+}
+
+.timelineItem li {
+  margin-bottom: 0.5rem;
+}
+
+.timelineItem li:last-child {
+  margin-bottom: 0;
+}
+
+.heroProfile {
+  display: flex;
+  gap: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.heroProfileLogo {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  background: #fff;
+  margin-left: 16px;
+}
+
+@media (max-width: 600px) {
+  .heroProfileLogo {
+    margin-left: 12px;
+  }
+}
+
+.heroProfileInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.heroProfileName {
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+
+.heroProfileRole {
+  font-size: 1.2rem;
+  color: #666;
+  font-weight: 500;
+}
