@@ -33,6 +33,8 @@ And worse, writing a long-lived access token directly into the MCP configuration
 
 Developer and user environments often contain sensitive data like access tokens, API keys, and local files. Running the Local MCP Server separately - in a remote and containerized environment - can reduce the risk of supply chain attacks. This separation limits access to sensitive information and makes it easier to secure. But the authrization process of Remote MCP Server is not yet completely implemented, so we may need to use the Local MCP Server. In this case, we should be careful about the deployment method.
 
+> We can see some of differences between the MCP Server authorization spec from [2025-03-26](https://github.com/modelcontextprotocol/modelcontextprotocol/blob/main/docs/specification/2025-03-26/basic/authorization.mdx) and the [draft spec](https://github.com/modelcontextprotocol/modelcontextprotocol/blob/main/docs/specification/draft/basic/authorization.mdx).
+
 And using Docker images to deploy Local MCP Server can reduce the risk of supply chain attacks compared to using `npx` or `uv` to download and execute the Local MCP Server. Docker images are built from a known set of files and dependencies, which can be verified for integrity and authenticity. This makes it harder for an attacker to attack outside of container environment by inject malicious code in the Local MCP Server. However, it is still important to ensure that the Docker image is from a trusted source and has not been tampered with.
 
 ### 2.3. Version Hashing
@@ -88,3 +90,10 @@ The depelopment of Local MCP Server is still in its early stages, and the depend
 Basically, local MCP servers are deployed in a developer or user environment, and it is little bit difficult to attack the local MCP server from outside of the environment. But if the attacker can inject malicious code into the Local MCP Server, they can access the sensitive data in the container or the developer or user environment. This is particularly dangerous if the token has elevated privileges or access to sensitive data.
 
 At the same time, it’s worth recognizing that immediately upgrading to the latest version without verifying the update contents can also introduce risks. In a supply chain attack where malicious code is injected, the attack remains effective until the contamination is discovered. In other words, unless someone verifies the update or a runtime detection tool identifies the issue, the attack will continue to affect all users running that version. Therefore, it is essential to both verify updates and implement EDR/DNS solutions capable of detecting and tracking the execution of compromised code - along with maintaining their continuous operation.
+
+## References
+
+- [Model Context Protocol (MCP)](https://modelcontextprotocol.io/introduction)
+- [Base Protocol - Authorization](https://modelcontextprotocol.io/specification/2025-03-26/basic/authorization)
+- [Understanding and mitigating security risks in MCP implementations](https://techcommunity.microsoft.com/blog/microsoft-security-blog/understanding-and-mitigating-security-risks-in-mcp-implementations/4404667)
+- [MCP Is a Security Nightmare — Here’s How the Agent Security Framework Fixes It](https://medium.com/data-science-collective/mcp-is-a-security-nightmare-heres-how-the-agent-security-framework-fixes-it-fd419fdfaf4e)
