@@ -19,7 +19,7 @@ function HomepageHeader() {
               Hiroki Akamatsu - hi120ki
             </div>
             <div className={styles.heroProfileRole}>
-              Platform Security Engineer
+              Platform & AI Security Engineer
             </div>
           </div>
         </div>
@@ -115,12 +115,13 @@ export default function Home(): ReactNode {
             date="2024 - Present"
             title="Mercari, Inc. — Security Engineer (Full-time)"
             details={[
+              "Designed and implemented platform-wide security controls for the operational use of AI tools such as Coding Agents.",
               {
                 text: "Developed tools to reduce the need for long-lived credentials on GitHub, reducing the risk of credential leakage and simplifying credential management.",
                 publication: {
                   title:
-                    "Eliminating GitHub PATs and Private Keys from Google Cloud - Extending the Token Server for Google Cloud Integration",
-                  url: "https://engineering.mercari.com/blog/entry/20241203-token-server-google-cloud/",
+                    "Removing GitHub PATs and Private Keys From Google Cloud: Extending Token Server to Google Cloud",
+                  url: "https://engineering.mercari.com/en/blog/entry/20241203-token-server-google-cloud/",
                 },
               },
               "Applied organization-wide security controls on Google Cloud Platform and AWS.",
