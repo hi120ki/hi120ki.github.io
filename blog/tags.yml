@@ -202,3 +202,18 @@ Writeup:
   label: Writeup
   permalink: /writeup
   description: Articles about writeups (explanatory articles and reports)
+
+AI:
+  label: AI
+  permalink: /ai
+  description: Articles about artificial intelligence and machine learning
+
+MCP:
+  label: MCP
+  permalink: /mcp
+  description: Articles about Model Context Protocol
+
+OAuth:
+  label: OAuth
+  permalink: /oauth
+  description: Articles about OAuth and authentication protocols
