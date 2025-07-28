@@ -90,5 +90,9 @@
   "link.item.label.GitHub Repository": {
     "message": "GitHub Repository",
     "description": "The label of footer link with label=GitHub Repository linking to https://github.com/hi120ki/hi120ki.github.io"
+  },
+  "link.item.label.GitHub Security": {
+    "message": "GitHub Security",
+    "description": "The label of footer link with label=GitHub Security linking to /docs/github-security/intro"
   }
 }
