@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://hi120ki.github.io/sitemap.xml
+Sitemap: https://hi120ki.github.io/ja/sitemap.xml
