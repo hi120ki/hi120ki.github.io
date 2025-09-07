@@ -1,3 +1,7 @@
+---
+sidebar_position: 3
+---
+
 # Custom Property based Security Controls on GitHub
 
 ## Overview
