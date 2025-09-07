@@ -103,11 +103,13 @@ export default function Home(): ReactNode {
       <main>
         <Section id="about" title="About Me">
           <p>
-            I am a Platform Security Engineer specializing in enforcing
-            secure-by-default cloud infrastructure, implementing security
-            controls across development environments including GitHub and the
-            software supply chain, and hardening Kubernetes security - all while
-            minimizing friction for developers.
+            I am a Platform & AI Security Engineer focused on building
+            secure-by-default infrastructure and enabling the safe adoption of
+            emerging technologies such as large language models (LLMs). My work
+            spans securing the usage and deployment of AI tools, cloud
+            platforms, software supply chains, and Kubernetes environments, as
+            well as designing security controls that integrate seamlessly into
+            developer workflows.
           </p>
         </Section>
         <Section id="experience" title="Professional Experience">
@@ -115,7 +117,14 @@ export default function Home(): ReactNode {
             date="2024 - Present"
             title="Mercari, Inc. — Security Engineer (Full-time)"
             details={[
-              "Designed and implemented platform-wide security controls for the operational use of AI tools such as Coding Agents.",
+              "Designed and implemented platform-wide security controls for the operational use of AI tools.",
+              {
+                text: "Designed the security architecture of inhouse MCP (Model Context Protocol) servers to ensure organization wide secure usage of AI tools.",
+                publication: {
+                  title: "MCP's authentication and authorization",
+                  url: "https://speakerdeck.com/hi120ki/mcp-authorization",
+                },
+              },
               {
                 text: "Developed tools to reduce the need for long-lived credentials on GitHub, reducing the risk of credential leakage and simplifying credential management.",
                 publication: {
