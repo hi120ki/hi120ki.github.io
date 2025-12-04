@@ -28,8 +28,8 @@ Google Apps Script と LINE Notify API を使って電車の遅延情報を LINE
 
 ```javascript
 function main() {
-  var messege = getDelayInfo();
-  sendLinePost(messege);
+  var message = getDelayInfo();
+  sendLinePost(message);
 }
 
 // 発行された LINE Notify アクセストークン

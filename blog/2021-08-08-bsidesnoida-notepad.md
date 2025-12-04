@@ -19,7 +19,7 @@ Note : Bruteforce is not required.
 
 This is a simple memo application, and it has a button "Share with admin", so the problem is related to XSS.
 
-Checked the url, it has two parametrs "msg" and "token".
+Checked the url, it has two parameters "msg" and "token".
 
 [http://ctf.notepad1.bsidesnoida.in/review?msg=bWVtbw&token=5ruMlXaWgLCJgsghznm9gg](http://ctf.notepad1.bsidesnoida.in/review?msg=bWVtbw&token=5ruMlXaWgLCJgsghznm9gg)
 

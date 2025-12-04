@@ -19,7 +19,7 @@ function HomepageHeader() {
               Hiroki Akamatsu - hi120ki
             </div>
             <div className={styles.heroProfileRole}>
-              Platform & AI Security Engineer
+              AI & Platform Security Engineer
             </div>
           </div>
         </div>
@@ -35,7 +35,7 @@ function Section({
 }: {
   id: string;
   title: string;
-  children: React.ReactNode;
+  children: ReactNode;
 }) {
   return (
     <section id={id} className={styles.section}>
@@ -56,7 +56,7 @@ function TimelineItem({
   title: string;
   details: (
     | string
-    | { text: string; publication?: { title: string; url: string } }
+    | { text: string; publications?: { title: string; url: string }[] }
   )[];
 }) {
   return (
@@ -70,18 +70,21 @@ function TimelineItem({
           } else {
             return (
               <li key={index}>
-                {detail.text}
-                {detail.publication && (
-                  <>
-                    {" "}
-                    <a
-                      href={detail.publication.url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      [{detail.publication.title}]
-                    </a>
-                  </>
+                <div>{detail.text}</div>
+                {detail.publications && detail.publications.length > 0 && (
+                  <ul className={styles.publicationList}>
+                    {detail.publications.map((publication, pubIndex) => (
+                      <li key={pubIndex}>
+                        <a
+                          href={publication.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          {publication.title}
+                        </a>
+                      </li>
+                    ))}
+                  </ul>
                 )}
               </li>
             );
@@ -103,13 +106,12 @@ export default function Home(): ReactNode {
       <main>
         <Section id="about" title="About Me">
           <p>
-            I am a Platform & AI Security Engineer focused on building
+            I am a AI & Platform Security Engineer focused on building
             secure-by-default infrastructure and enabling the safe adoption of
-            emerging technologies such as large language models (LLMs). My work
-            spans securing the usage and deployment of AI tools, cloud
-            platforms, software supply chains, and Kubernetes environments, as
-            well as designing security controls that integrate seamlessly into
-            developer workflows.
+            emerging technologies such as LLMs. My work spans securing the usage
+            and deployment of AI Agents, MCPs, cloud platforms, software supply
+            chains, and Kubernetes environments, as well as designing security
+            controls that integrate seamlessly into developer workflows.
           </p>
         </Section>
         <Section id="experience" title="Professional Experience">
@@ -117,24 +119,46 @@ export default function Home(): ReactNode {
             date="2024 - Present"
             title="Mercari, Inc. — Security Engineer (Full-time)"
             details={[
-              "Designed and implemented platform-wide security controls for the operational use of AI tools.",
               {
-                text: "Designed the security architecture of inhouse MCP (Model Context Protocol) servers to ensure organization wide secure usage of AI tools.",
-                publication: {
-                  title: "MCP's authentication and authorization",
-                  url: "https://speakerdeck.com/hi120ki/mcp-authorization",
-                },
+                text: "Launched LLM Key Server that issues short-lived API keys via OIDC for local environments, GitHub Actions, Apps Script, and service account workloads, enabling secure and centrally managed internal LLM API access.",
+                publications: [
+                  {
+                    title:
+                      "LLM Key Server: Providing Secure and Convenient Access to Internal LLM APIs",
+                    url: "https://engineering.mercari.com/en/blog/entry/20251202-llm-key-server/",
+                  },
+                ],
+              },
+              {
+                text: "Designed the security architecture of inhouse MCP gateway to ensure organization wide secure usage of AI Agents.",
+                publications: [
+                  {
+                    title:
+                      "MCP Authentication and Authorization: Current State and Future",
+                    url: "https://hi120ki.github.io/blog/posts/20250728/",
+                  },
+                  {
+                    title: "Weaponize the MCP - OAuth Phishing and Mitigations",
+                    url: "https://hi120ki.github.io/blog/posts/20251123/",
+                  },
+                  {
+                    title: "MCP's authentication and authorization",
+                    url: "https://speakerdeck.com/hi120ki/mcp-authorization",
+                  },
+                ],
               },
               {
                 text: "Developed tools to reduce the need for long-lived credentials on GitHub, reducing the risk of credential leakage and simplifying credential management.",
-                publication: {
-                  title:
-                    "Removing GitHub PATs and Private Keys From Google Cloud: Extending Token Server to Google Cloud",
-                  url: "https://engineering.mercari.com/en/blog/entry/20241203-token-server-google-cloud/",
-                },
+                publications: [
+                  {
+                    title:
+                      "Removing GitHub PATs and Private Keys From Google Cloud: Extending Token Server to Google Cloud",
+                    url: "https://engineering.mercari.com/en/blog/entry/20241203-token-server-google-cloud/",
+                  },
+                ],
               },
-              "Applied organization-wide security controls on Google Cloud Platform and AWS.",
-              "Authored Kubernetes hardening guidelines and reduced critical findings.",
+              "Applied organization-wide security controls using GCP Organization Policy and AWS SCP.",
+              "Authored Kubernetes hardening guidelines and reduced critical findings on Gatekeeper.",
             ]}
           />
           <TimelineItem
@@ -143,11 +167,13 @@ export default function Home(): ReactNode {
             details={[
               {
                 text: "Re-structured Microsoft Kubernetes Threat Matrix and created Falco rules to fill detection gaps, and contributed to upstream official falco ruleset.",
-                publication: {
-                  title:
-                    "Restructuring the Kubernetes Threat Matrix and Evaluating Attack Detection by Falco",
-                  url: "https://engineering.mercari.com/en/blog/entry/20220928-kubernetes-threat-matrix-and-attack-detection-by-falco/",
-                },
+                publications: [
+                  {
+                    title:
+                      "Restructuring the Kubernetes Threat Matrix and Evaluating Attack Detection by Falco",
+                    url: "https://engineering.mercari.com/en/blog/entry/20220928-kubernetes-threat-matrix-and-attack-detection-by-falco/",
+                  },
+                ],
               },
             ]}
           />

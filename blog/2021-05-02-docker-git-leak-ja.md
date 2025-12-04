@@ -83,13 +83,13 @@ CMD ["/usr/sbin/nginx", "-g", "daemon off;"]
 
 となります。
 
-2番や3番は多くの場面で見られるので、もし該当するプロジェクトのDockerイメージをDockerHubのpublic repositoriyなどの誰でもダウンロードできる場所にアップロードしている場合は確認したほうがいいかもしれません。
+2番や3番は多くの場面で見られるので、もし該当するプロジェクトのDockerイメージをDockerHubのpublic repositoryなどの誰でもダウンロードできる場所にアップロードしている場合は確認したほうがいいかもしれません。
 
 > multi stage buildを使っていて.gitフォルダーが公開されるイメージに含まれないなど様々なシチュエーションが考えられます。上の条件を満たせば必ず.gitフォルダーがDockerイメージの中に残留するとは限りません。
 
 ## 対策
 
-Dockerイメージをpublic repositoriyに公開しない・`COPY`命令では必要なファイルのみを指定するなどの対策が考えられますが、1番おすすめなのは`.dockerignore`を使用する方法です。
+Dockerイメージをpublic repositoryに公開しない・`COPY`命令では必要なファイルのみを指定するなどの対策が考えられますが、1番おすすめなのは`.dockerignore`を使用する方法です。
 
 [Docker公式ドキュメント](https://docs.docker.com/engine/reference/builder/#dockerignore-file)にある通り、`.dockerignore`はこのファイルに指定されたファイルとディレクトリをコンテキストから除外します。
 

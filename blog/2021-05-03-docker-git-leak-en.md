@@ -79,7 +79,7 @@ The .git folder and the Dockerfile are in the same directory, and the `COPY` com
 3. you have moved files to the current directory by specifying the current directory with COPY or ADD command in Dockerfile (e.g. `COPY . /app`)
 4. upload the Docker image to a place where anyone can download it.
 
-If you have uploaded the Docker image of the corresponding project to a place where anyone can download it, such as public repositoriy on DockerHub, you might want to check it.
+If you have uploaded the Docker image of the corresponding project to a place where anyone can download it, such as public repository on DockerHub, you might want to check it.
 
 > If you are using multi stage build and the .git folder is not included in the public image, there are many possible situations. If the above conditions are met, it does not necessarily mean that the .git folder will remain in the Docker image.
 

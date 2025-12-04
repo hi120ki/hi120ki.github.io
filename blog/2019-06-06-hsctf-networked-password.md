@@ -9,7 +9,7 @@ slug: posts/20190606
 ## Problem
 
 ```
-Storing passwords on my own server seemed unsafe, so I stored it on a seperate one instead.
+Storing passwords on my own server seemed unsafe, so I stored it on a separate one instead.
 However, the connection between them is very slow and I have no idea why.
 ```
 

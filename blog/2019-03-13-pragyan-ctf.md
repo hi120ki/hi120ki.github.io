@@ -89,7 +89,7 @@ Second, There is "pctf" character in secret.txt.
 
 I try all key, and encrypt "pctf", and make sure ciphertext matches.
 
-If it maches, I decode all ciphertext.
+If it matches, I decode all ciphertext.
 
 > 次に secret.txt の中に「pctf」が含まれていることから、まず全ての key で pctf を暗号化し、ciphertext と一致するか調べます。
 >
