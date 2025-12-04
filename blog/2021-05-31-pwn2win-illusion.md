@@ -8,7 +8,7 @@ slug: posts/20210531
 
 ## Challenge
 
-Laura just found a website used for monitoring security mechanisms on Rhiza's state and is planning to hack into it to forge the status of these security services. After that she will desactivate these security resources without alerting government agents. Your goal is to get into the server to change the monitoring service behavior.
+Laura just found a website used for monitoring security mechanisms on Rhiza's state and is planning to hack into it to forge the status of these security services. After that she will deactivate these security resources without alerting government agents. Your goal is to get into the server to change the monitoring service behavior.
 
 Server: `nc illusion.pwn2win.party 1337`
 

@@ -156,7 +156,7 @@ flag が読み込まれるが preg_replace によって置き換えられてし�
 
 [PHP 変換フィルタ](https://www.php.net/manual/ja/filters.convert.php)
 
-を用いて falg を encode する
+を用いて flag を encode する
 
 [CyberChef](<https://gchq.github.io/CyberChef/#recipe=Escape_Unicode_Characters('%5C%5Cu',true,4,true)&input=cGhwOi8vZmlsdGVyL2NvbnZlcnQuYmFzZTY0LWVuY29kZS9yZXNvdXJjZT0vZmxhZw>)
 

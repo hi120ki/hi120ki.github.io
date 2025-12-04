@@ -275,7 +275,7 @@ $ ./poker
 ================
 
 [?] Enter 1 or 2: 1
-[-] Player 2 wins! Your score is reseted...
+[-] Player 2 wins! Your score is reset...
 
 ================
 | Score :   0  |
