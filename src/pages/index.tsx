@@ -148,6 +148,16 @@ export default function Home(): ReactNode {
                 ],
               },
               {
+                text: "As an engineering lead of Mercari's AI Security Team, established AI security best practices and guidelines, developed MCP management processes, reviewed and hardened guardrails on multiple AI Agent services and platforms, and created an AI integration matrix to facilitate safe and efficient AI adoption across the organization.",
+                publications: [
+                  {
+                    title:
+                      "How Mercari’s AI Security Team is Securing AI Native",
+                    url: "https://careers.mercari.com/en/mercan/articles/55843/",
+                  },
+                ],
+              },
+              {
                 text: "Developed tools to reduce the need for long-lived credentials on GitHub, reducing the risk of credential leakage and simplifying credential management.",
                 publications: [
                   {
