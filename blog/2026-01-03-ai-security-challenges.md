@@ -13,6 +13,8 @@ The year 2025 witnessed a continuous cycle of emerging and evolving AI/LLM techn
 
 <!-- truncate -->
 
+**[→ 日本語版 / Japanese version](https://hi120ki.github.io/ja/blog/posts/20260103/)**
+
 ## Looking Back at 2025
 
 AI Security activities in 2025 focused on implementing security measures alongside the introduction of newly emerging AI technologies. While best practices were limited in early 2025, comprehensive guidelines have now been developed and are gaining recognition:
@@ -35,7 +37,7 @@ Throughout 2025, AI solutions like [Claude Code](https://code.claude.com/docs/ov
 
 The biggest risk in organizational AI solution usage is the unintentional leakage of confidential information when users are unaware that free plan usage data may be used for model training. Additionally, when data is stored on service provider servers, managing the types of usage data, access methods, and permissions is essential. Since these services frequently change in popularity with model performance improvements, relying on a single specific tool is insufficient. Therefore, it's important to not only manage usage but also establish "a foundation for safely trying all tools" and "a process for managing AI solutions that can be used safely."
 
-An example of infrastructure investment is utilizing an LLM API Proxy ([LiteLLM](https://www.litellm.ai/)). This enables safe usage of tools that support the OpenAI API specification with custom LLM APIs (Claude Code, Codex, Gemini CLI, OpenCommit, etc.), establishing a centralized management system ([Providing Safe and Convenient Access to LLM APIs with LLM Key Server](https://engineering.mercari.com/blog/entry/20251202-llm-key-server/)) that can manage multiple models uniformly. This platform is one of the best practices that simultaneously solves common issues with LLM API usage: access permission granting, auditing, API key management, budget management, and model management.
+An example of infrastructure investment is utilizing an LLM API Proxy ([LiteLLM](https://www.litellm.ai/)). This enables safe usage of tools that support the OpenAI API specification with custom LLM APIs (Claude Code, Codex, Gemini CLI, OpenCommit, etc.), establishing a centralized management system ([Providing Safe and Convenient Access to LLM APIs with LLM Key Server](https://engineering.mercari.com/en/blog/entry/20251202-llm-key-server/)) that can manage multiple models uniformly. This platform is one of the best practices that simultaneously solves common issues with LLM API usage: access permission granting, auditing, API key management, budget management, and model management.
 
 For processes to manage safely usable AI solutions, establishing review processes for new tools and guidelines is important. Approaches such as developing or introducing custom security features ([Security Challenges in Devin Discovered Through Operations - Devin Meetup Tokyo 2025](https://speakerdeck.com/hi120ki/devin-ai-security), [Open-Sourcing n8n Static Analysis CLI Tool – Automating Security Checks with JSON Analysis and DAG](https://engineering.mercari.com/blog/entry/20251211-580dc508a7/)) are also effective.
 
