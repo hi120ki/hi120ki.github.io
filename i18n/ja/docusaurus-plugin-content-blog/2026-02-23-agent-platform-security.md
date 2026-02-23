@@ -13,8 +13,6 @@ image: /img/2026-02-23/ogp.png
 
 <!-- truncate -->
 
-**[→ English version](https://hi120ki.github.io/blog/posts/20260223/)**
-
 また単純な作業しか実現できなかった初期のAIエージェントから、人間による細かい追加指示無しに1つの命令のみから複数のツール呼び出しを伴う複雑なタスクを完結できるようにAIエージェントの能力は大きく進化しています。このためOpenClawのような汎用AIエージェントだけではなく、Codingエージェントについてもローカルで実行するClaude CodeやCodex CLIから、クラウドで動作しローカル環境に依存せずいつでも呼び出すことができる[Devin](https://devin.ai/)に代表されるRemote Coding Agentへとトレンドが移りつつあり、実際に複数の組織がクラウド環境で動作する内製Codingエージェントを発表しています。
 
 - [Ramp Inspect](https://builders.ramp.com/post/why-we-built-our-background-agent)
@@ -28,6 +26,8 @@ image: /img/2026-02-23/ogp.png
 つまり、最新のAIエージェントを実運用で扱うには、基本的にファイルシステム・シェル・ネットワークアクセスが提供される環境が必要になります。こうした背景から、現在求められるAIエージェント実行基盤ではサンドボックス環境や追加の対策が必須になりつつあります。本記事では、このようなAIエージェントに求められるセキュリティ対策を具体的に整理し、どう実現していくかを紹介します。
 
 ![Security for Agent Platforms](/img/2026-02-23/agent-platform-security.jpg)
+
+**[→ English version](https://hi120ki.github.io/blog/posts/20260223/)**
 
 ## 1. サンドボックス
 
@@ -284,3 +284,8 @@ OpenClawが抱える多くのセキュリティ課題の中で最も深刻であ
 ここまで紹介してきた通り、最新のAIエージェントは強い権限と広い実行環境を必要とします。だからこそ、実行基盤側で被害の上限を決める設計が重要になります。
 
 AIエージェントが賢くなると同時に失敗のスピードが速くなり、また複数のAIエージェントを並行して大量に使うと失敗の数が増えます。このような速さと量に耐えることのできるAgent Platformのセキュリティ設計がますます必要になっていきます。
+
+## 参考
+
+- [Agent Platform Security Checklist](https://hi120ki.github.io/docs/ai-security/agent-platform-security-checklist/)
+- [AI Security Challenges in 2026](https://hi120ki.github.io/blog/posts/20260103/)

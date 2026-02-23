@@ -13,8 +13,6 @@ Since January 2026, [OpenClaw](https://github.com/openclaw/openclaw) has attract
 
 <!-- truncate -->
 
-**[→ 日本語版 / Japanese version](https://hi120ki.github.io/ja/blog/posts/20260223/)**
-
 Furthermore, AI agents have evolved significantly from the early days when they could only handle simple tasks. They can now complete complex tasks involving multiple tool calls from a single instruction without detailed human guidance. Because of this, the trend is shifting not only for general purpose AI agents like OpenClaw but also for coding agents. We are moving from locally running tools like Claude Code and Codex CLI to Remote Coding Agents like [Devin](https://devin.ai/) that run in the cloud and can be called at any time without depending on local environments. Several organizations have already announced their own cloud based coding agents:
 
 - [Ramp Inspect](https://builders.ramp.com/post/why-we-built-our-background-agent)
@@ -28,6 +26,8 @@ The most important element of this trend is the AI agent execution model based o
 In other words, running modern AI agents in production basically requires an environment that provides file system, shell, and network access. Given this background, sandbox environments and additional security measures are becoming essential for current AI agent execution platforms. This article organizes the specific security measures needed for such AI agents and explains how to implement them.
 
 ![Security for Agent Platforms](/img/2026-02-23/agent-platform-security.jpg)
+
+**[→ 日本語版 / Japanese version](https://hi120ki.github.io/ja/blog/posts/20260223/)**
 
 ## 1. Sandbox
 
@@ -284,3 +284,8 @@ Authentication implementation is particularly error prone, so it is recommended 
 As we have discussed, modern AI agents require strong permissions and broad execution environments. That is precisely why designing the execution platform to set an upper limit on potential damage is critical.
 
 As AI agents become smarter, the speed of failures increases. And when multiple AI agents are run in parallel at scale, the number of failures grows. Security design for Agent Platforms that can withstand this speed and volume is becoming increasingly necessary.
+
+## References
+
+- [Agent Platform Security Checklist](https://hi120ki.github.io/docs/ai-security/agent-platform-security-checklist/)
+- [AI Security Challenges in 2026](https://hi120ki.github.io/blog/posts/20260103/)
