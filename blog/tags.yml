@@ -217,3 +217,13 @@ OAuth:
   label: OAuth
   permalink: /oauth
   description: Articles about OAuth and authentication protocols
+
+LLM:
+  label: LLM
+  permalink: /llm
+  description: Articles about large language models
+
+Agent:
+  label: Agent
+  permalink: /agent
+  description: Articles about AI agents
