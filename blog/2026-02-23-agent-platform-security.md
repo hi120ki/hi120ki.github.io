@@ -233,7 +233,7 @@ The next requirement is observability for AI agents. AI agents frequently take i
 
 ### 4.1 AI Agent Action Logs
 
-AI agents can now operate for tens of minutes or more on a single instruction, using various tools and MCP servers during that time. For security incident investigation, it is essential to accurately record when and what processing was performed. This should be built into the AI agent implementation. However, in some cases, such as when using the `claude -p` option with the Claude Code CLI, action logs may not be available through standard output. In those situations, additional implementation is needed, such as exporting and saving logs from the `~/claude` directory.
+AI agents can now operate for tens of minutes or more on a single instruction, using various tools and MCP servers during that time. For security incident investigation, it is essential to accurately record when and what processing was performed. This should be built into the AI agent implementation. However, in some cases, such as when using the `claude -p` option with the Claude Code CLI, action logs may not be available through standard output. In those situations, additional implementation is needed, such as exporting and saving logs from the `~/.claude` directory.
 
 ### 4.2 LLM API Proxy
 
