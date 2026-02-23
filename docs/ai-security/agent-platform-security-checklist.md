@@ -192,7 +192,7 @@ Each section provides a checklist item, why it matters, and a concrete recommend
 
 **Recommendation:** Log all platform access events with user identity, timestamp, action type, and session ID. Integrate with your organization's SIEM for centralized monitoring.
 
-## Reference
+## References
 
 - [Action Items for Agent Platform Security](https://hi120ki.github.io/blog/posts/20260223/)
 - [AI Security Challenges in 2026](https://hi120ki.github.io/blog/posts/20260103/)
