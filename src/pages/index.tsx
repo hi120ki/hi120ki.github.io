@@ -106,21 +106,25 @@ export default function Home(): ReactNode {
       <main>
         <Section id="about" title="About Me">
           <p>
-            I am a AI & Platform Security Engineer focused on building
-            secure-by-default infrastructure and enabling the safe adoption of
-            emerging technologies such as LLMs. My work spans securing the usage
-            and deployment of AI Agents, MCPs, cloud platforms, software supply
-            chains, and Kubernetes environments, as well as designing security
-            controls that integrate seamlessly into developer workflows.
+            I am an AI & Platform Security Engineer focused on AI system
+            security, including hands-on experience designing secure LLM
+            infrastructure, authoring agent platform security guidelines, and
+            researching attack surfaces specific to AI environments. Cloud
+            security work spans Google Cloud, AWS, and Kubernetes, with
+            particular depth in credential lifecycle management and policy
+            enforcement at scale. I have investigated and published on prompt
+            injection, unsafe agent behavior, and OAuth phishing in MCP
+            environments, and share findings through technical articles and
+            talks at AI engineering events in Japan.
           </p>
         </Section>
         <Section id="experience" title="Professional Experience">
           <TimelineItem
-            date="2024 - Present"
-            title="Mercari, Inc. — Security Engineer (Full-time)"
+            date="May 2025 - Present"
+            title="Mercari, Inc. — AI Security Engineer, Tech Lead (AI Security Team)"
             details={[
               {
-                text: "Launched LLM Key Server that issues short-lived API keys via OIDC for local environments, GitHub Actions, Apps Script, and service account workloads, enabling secure and centrally managed internal LLM API access.",
+                text: "Established security architecture for a company-wide LiteLLM-based LLM API proxy. Designed and implemented an OIDC-based short-lived API key issuance system (LLM Key Server), eliminating static LLM API keys across the organization with integrations for GitHub Actions and Google Apps Script.",
                 publications: [
                   {
                     title:
@@ -130,7 +134,7 @@ export default function Home(): ReactNode {
                 ],
               },
               {
-                text: "Designed the security architecture of inhouse MCP gateway to ensure organization wide secure usage of AI Agents.",
+                text: "Led architecture of the company’s internal MCP gateway with forward compatibility for upcoming enterprise authorization specs. Independently researched and published analysis of OAuth phishing attacks via unauthenticated Dynamic Client Registration in MCP.",
                 publications: [
                   {
                     title:
@@ -138,17 +142,30 @@ export default function Home(): ReactNode {
                     url: "https://hi120ki.github.io/blog/posts/20250728/",
                   },
                   {
-                    title: "Weaponize the MCP - OAuth Phishing and Mitigations",
+                    title: "Weaponize the MCP — OAuth Phishing and Mitigations",
                     url: "https://hi120ki.github.io/blog/posts/20251123/",
                   },
                   {
-                    title: "MCP's authentication and authorization",
+                    title: "MCP Authentication and Authorization",
                     url: "https://speakerdeck.com/hi120ki/mcp-authorization",
                   },
                 ],
               },
               {
-                text: "As an engineering lead of Mercari's AI Security Team, established AI security best practices and guidelines, developed MCP management processes, reviewed and hardened guardrails on multiple AI Agent services and platforms, and created an AI integration matrix to facilitate safe and efficient AI adoption across the organization.",
+                text: "Authored comprehensive security guidelines for cloud-hosted AI agent environments, covering areas such as sandboxing, network controls, credential management, observability, prompt filtering, and supply chain security.",
+                publications: [
+                  {
+                    title: "Action Items for Agent Platform Security",
+                    url: "https://hi120ki.github.io/blog/posts/20260223/",
+                  },
+                  {
+                    title: "AI Security Challenges in 2026",
+                    url: "https://hi120ki.github.io/blog/posts/20260103/",
+                  },
+                ],
+              },
+              {
+                text: "Conducted AI-specific security reviews for internal and external AI products, identifying risks such as prompt injection, data leakage, and unsafe agent behavior. Developed and maintained company-wide AI security guidelines and led organization-wide training programs.",
                 publications: [
                   {
                     title:
@@ -158,7 +175,27 @@ export default function Home(): ReactNode {
                 ],
               },
               {
-                text: "Developed tools to reduce the need for long-lived credentials on GitHub, reducing the risk of credential leakage and simplifying credential management.",
+                text: "Designed automated security check architecture for n8n AI workflows and mentored a junior engineer through implementation. Built automated user and API key lifecycle management for Devin Enterprise.",
+                publications: [
+                  {
+                    title: "Automating Secure Devin Management at Mercari",
+                    url: "https://speakerdeck.com/hi120ki/secure-devin-management",
+                  },
+                  {
+                    title:
+                      "Security Challenges of Devin Discovered Through Operation",
+                    url: "https://speakerdeck.com/hi120ki/devin-ai-security",
+                  },
+                ],
+              },
+            ]}
+          />
+          <TimelineItem
+            date="Feb 2024 - Apr 2025"
+            title="Mercari, Inc. — Security Engineer (Platform Security)"
+            details={[
+              {
+                text: "Extended the internal Token Server for Google Cloud workloads: implemented OIDC-based short-lived credential issuance via a custom Go library, eliminating long-lived PATs and private keys. Led elimination of long-lived GitHub credentials across multiple service teams in a multinational organization.",
                 publications: [
                   {
                     title:
@@ -167,16 +204,14 @@ export default function Home(): ReactNode {
                   },
                 ],
               },
-              "Applied organization-wide security controls using GCP Organization Policy and AWS SCP.",
-              "Authored Kubernetes hardening guidelines and reduced critical findings on Gatekeeper.",
             ]}
           />
           <TimelineItem
-            date="2022 - 2022"
+            date="2022"
             title="Mercari, Inc. — Security Engineer (Intern)"
             details={[
               {
-                text: "Re-structured Microsoft Kubernetes Threat Matrix and created Falco rules to fill detection gaps, and contributed to upstream official falco ruleset.",
+                text: "Identified missing attack techniques in Microsoft’s Threat Matrix for Kubernetes and documented them as an extended threat model. Contributed new attack detection rules to the Falco open-source repository and merged multiple Pull Requests into the official project.",
                 publications: [
                   {
                     title:
@@ -188,10 +223,10 @@ export default function Home(): ReactNode {
             ]}
           />
           <TimelineItem
-            date="2021 - 2021"
-            title="Recruit Co., Ltd. — Security Engineer (Part-time)"
+            date="2021"
+            title="Recruit Co., Ltd. — Security Engineer (Intern)"
             details={[
-              "Performed application vulnerability assessments and built static-analysis parsers for proprietary codebases.",
+              "Conducted vulnerability assessments on web applications and iOS applications. Built a source code parser to automate analysis of inspection targets, reducing manual effort in the assessment process.",
             ]}
           />
         </Section>
