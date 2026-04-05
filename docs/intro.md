@@ -13,6 +13,7 @@ Whether you are preparing for certifications, working on professional projects, 
 ## What You'll Find
 
 - [**AI Security**](./ai-security/intro.md): Notes and resources on securing AI/ML systems, including keyless authentication and best practices (to be expanded).
+- [**AI Penetration**](./ai-pentest/intro.md): Penetration testing techniques for AI and LLM applications, including endpoint discovery, wordlists, and model fingerprinting.
 - [**Cloud Security**](./cloud-security/intro.md): Strategies for securing cloud environments, including federation, organization policy, and token management.
 - [**GitHub Security**](./github-security/intro.md): Best practices and tools for securing GitHub repositories and applications.
 - [**Pentest**](./pentest/intro.md): In-depth penetration testing techniques, tool usage (nmap, metasploit, shellter, etc.), privilege escalation, and exam preparation.
