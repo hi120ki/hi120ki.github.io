@@ -56,7 +56,10 @@ function TimelineItem({
   title: string;
   details: (
     | string
-    | { text: string; publications?: { title: string; url: string }[] }
+    | {
+        text: string;
+        publications?: { title: string; url: string; slidesUrl?: string }[];
+      }
   )[];
 }) {
   return (
@@ -82,6 +85,20 @@ function TimelineItem({
                         >
                           {publication.title}
                         </a>
+                        {publication.slidesUrl && (
+                          <>
+                            {" "}
+                            (
+                            <a
+                              href={publication.slidesUrl}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              Slides
+                            </a>
+                            )
+                          </>
+                        )}
                       </li>
                     ))}
                   </ul>
@@ -178,13 +195,11 @@ export default function Home(): ReactNode {
                 text: "Designed automated security check architecture for n8n AI workflows and mentored a junior engineer through implementation. Built a secure Devin Enterprise management platform in Go and GitHub Actions, including a custom Terraform provider, automated secret rotation, and API key lifecycle controls.",
                 publications: [
                   {
-                    title: "Automating Secure Devin Management at Mercari",
-                    url: "https://engineering.mercari.com/en/blog/entry/20260403-secure-devin-management/",
-                  },
-                  {
                     title:
-                      "Automating Secure Devin Management at Mercari (Slides)",
-                    url: "https://speakerdeck.com/hi120ki/secure-devin-management",
+                      "Enabling AI Usage at Mercari with Secure Devin Management",
+                    url: "https://engineering.mercari.com/en/blog/entry/20260403-secure-devin-management/",
+                    slidesUrl:
+                      "https://speakerdeck.com/hi120ki/secure-devin-management",
                   },
                   {
                     title:
