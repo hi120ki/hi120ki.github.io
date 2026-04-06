@@ -175,10 +175,15 @@ export default function Home(): ReactNode {
                 ],
               },
               {
-                text: "Designed automated security check architecture for n8n AI workflows and mentored a junior engineer through implementation. Built automated user and API key lifecycle management for Devin Enterprise.",
+                text: "Designed automated security check architecture for n8n AI workflows and mentored a junior engineer through implementation. Built a secure Devin Enterprise management platform in Go and GitHub Actions, including a custom Terraform provider, automated secret rotation, and API key lifecycle controls.",
                 publications: [
                   {
                     title: "Automating Secure Devin Management at Mercari",
+                    url: "https://engineering.mercari.com/en/blog/entry/20260403-secure-devin-management/",
+                  },
+                  {
+                    title:
+                      "Automating Secure Devin Management at Mercari (Slides)",
                     url: "https://speakerdeck.com/hi120ki/secure-devin-management",
                   },
                   {
