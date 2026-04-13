@@ -1,13 +1,13 @@
 ---
-title: Security Review of Claude Managed Agents and the Challenges of Multi-User Operation
-description: Security Review of Claude Managed Agents and the Challenges of Multi-User Operation
+title: How Secure Are Claude Managed Agents?
+description: How Secure Are Claude Managed Agents?
 authors: [hi120ki]
 tags: [AI, Security, LLM, Agent, MCP]
 slug: posts/20260413
 image: /img/2026-04-13/ogp.png
 ---
 
-# Security Review of Claude Managed Agents and the Challenges of Multi-User Operation
+# How Secure Are Claude Managed Agents?
 
 In April 2026, Anthropic released Claude Managed Agents as a public beta.
 

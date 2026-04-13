@@ -1,13 +1,13 @@
 ---
-title: Claude Managed Agentsのセキュリティ評価とマルチユーザー運用の課題
-description: Claude Managed Agentsのセキュリティ評価とマルチユーザー運用の課題
+title: Claude Managed Agentsはどこまで安全か？
+description: Claude Managed Agentsはどこまで安全か？
 authors: [hi120ki]
 tags: [AI, Security, LLM, Agent, MCP]
 slug: posts/20260413
 image: /img/2026-04-13/ogp.png
 ---
 
-# Claude Managed Agentsのセキュリティ評価とマルチユーザー運用の課題
+# Claude Managed Agentsはどこまで安全か？
 
 2026年4月、AnthropicからClaude Managed Agentsがpublic betaとして公開されました。
 
