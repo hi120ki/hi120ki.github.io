@@ -192,6 +192,15 @@ export default function Home(): ReactNode {
                 ],
               },
               {
+                text: "Distributed and enforced Claude Code security settings organization-wide via MDM, applying role-based controls tailored for both developers and non-developers.",
+                publications: [
+                  {
+                    title: "Claude Code Organization Settings",
+                    url: "https://speakerdeck.com/hi120ki/claude-code-organization-settings",
+                  },
+                ],
+              },
+              {
                 text: "Designed automated security check architecture for n8n AI workflows and mentored a junior engineer through implementation. Built a secure Devin Enterprise management platform in Go and GitHub Actions, including a custom Terraform provider, automated secret rotation, and API key lifecycle controls.",
                 publications: [
                   {
