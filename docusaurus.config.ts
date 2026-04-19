@@ -38,6 +38,7 @@ const config: Config = {
       {
         docs: {
           sidebarPath: "./sidebars.ts",
+          showLastUpdateTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           // editUrl:
@@ -45,6 +46,7 @@ const config: Config = {
         },
         blog: {
           showReadingTime: true,
+          showLastUpdateTime: true,
           feedOptions: {
             type: ["rss", "atom"],
             xslt: true,
@@ -57,6 +59,9 @@ const config: Config = {
           onInlineTags: "warn",
           onInlineAuthors: "warn",
           onUntruncatedBlogPosts: "warn",
+        },
+        sitemap: {
+          lastmod: "date",
         },
         theme: {
           customCss: "./src/css/custom.css",
