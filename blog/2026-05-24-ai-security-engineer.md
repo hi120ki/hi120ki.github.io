@@ -15,6 +15,8 @@ However, times have moved on. The AI world is shifting from multi-step workflows
 
 <!-- truncate -->
 
+**[→ 日本語版 / Japanese version](https://hi120ki.github.io/ja/blog/posts/20260524/)**
+
 As an AI security engineer at a business company, I have been deeply involved in introducing various AI-related products, promoting internal AI use from a security standpoint, and developing AI agents over the past year. From that position, I have kept thinking about the nature of these technologies and the skills required. I would like to share the following four insights with security engineers who work with AI, with people who want to use AI, and with those who decide strategy.
 
 1. **Do not hesitate to wait one month**

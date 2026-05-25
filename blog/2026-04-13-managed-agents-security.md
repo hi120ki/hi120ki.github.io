@@ -19,6 +19,8 @@ Running AI agents in production requires a lot of work. You need to build an age
 
 <!-- truncate -->
 
+**[→ 日本語版 / Japanese version](https://hi120ki.github.io/ja/blog/posts/20260413/)**
+
 With a single API call, you get an environment where Claude can read and write files, run shell commands, search the web, and connect to external services through MCP servers.
 
 Anthropic's engineering blog "[Scaling Managed Agents: Decoupling the brain from the hands](https://www.anthropic.com/engineering/managed-agents)" covers the architecture and design decisions in detail.

@@ -15,6 +15,8 @@ While new attack methods emerge, long standing attack vectors are also being exp
 
 <!-- truncate -->
 
+**[→ 日本語版 / Japanese version](https://hi120ki.github.io/ja/blog/posts/20251123/)**
+
 ## How OAuth Is Used in MCP
 
 OAuth is used to grant MCP limited access and permissions to various services. When a user configures an MCP connection and starts using it, a browser opens automatically, the OAuth authorization flow begins, the account is authenticated, a consent screen is shown, and finally an access token is provided to the MCP client.
