@@ -15,6 +15,8 @@ MCPというAI/LLMの拡張機能は現在のAI Agentの基礎となっていま
 
 <!-- truncate -->
 
+**[→ English version](https://hi120ki.github.io/blog/posts/20251123/)**
+
 ## MCPのOAuth仕様の普及
 
 MCPに様々なサービスへの限定されたアクセスや権限を付与するために利用されるのがOAuthです。利用者がMCP接続を設定し利用を開始すると、自動的にブラウザが開きOAuthの認可フローが開始されアカウントを認証、合意画面が表示され最終的にアクセストークンがMCPクライアントに提供されます。

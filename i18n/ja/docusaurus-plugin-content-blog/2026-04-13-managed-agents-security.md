@@ -19,6 +19,8 @@ AIエージェントを本番環境で動かすには、エージェントルー
 
 <!-- truncate -->
 
+**[→ English version](https://hi120ki.github.io/blog/posts/20260413/)**
+
 Claudeがファイルの読み書き、シェルコマンドの実行、Web検索、MCPサーバー経由の外部サービス連携を自律的に行える環境が、APIを叩くだけで手に入ります。
 
 アーキテクチャの設計思想はAnthropicのエンジニアリングブログ "[Scaling Managed Agents: Decoupling the brain from the hands](https://www.anthropic.com/engineering/managed-agents)" に詳しくまとまっています。
