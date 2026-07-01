@@ -4,7 +4,7 @@ description: AI Security Action Items for the Second Half of 2026
 authors: [hi120ki]
 tags: [AI, Security, LLM, Agent, MCP, OAuth]
 slug: posts/20260701
-image: /img/2026-07-01/ogp.png
+image: /img/2026-07-01/ogp.jpg
 ---
 
 # AI Security Action Items for the Second Half of 2026

@@ -4,7 +4,7 @@ description: 2026年後半のAI Securityでやるべきこと
 authors: [hi120ki]
 tags: [AI, Security, LLM, Agent, MCP, OAuth]
 slug: posts/20260701
-image: /img/2026-07-01/ogp.png
+image: /img/2026-07-01/ogp.jpg
 ---
 
 # 2026年後半のAI Securityでやるべきこと
