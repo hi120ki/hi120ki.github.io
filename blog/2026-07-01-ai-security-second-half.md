@@ -15,6 +15,8 @@ At the start of the year, in [AI Security Challenges in 2026](https://hi120ki.gi
 
 **[→ 日本語版 / Japanese version](https://hi120ki.github.io/ja/blog/posts/20260701/)**
 
+![AI Security Action Items for the Second Half of 2026](/img/2026-07-01/img.jpg)
+
 ## Looking Back at the First Half of 2026
 
 The biggest change in the first half of 2026 was that the AI agent platform ecosystem matured all at once. Elements that were still experimental at the start of the year have entered a consolidation phase, much like how each vendor lined up best practices during the cloud migration era. ([Action Items for Agent Platform Security](https://hi120ki.github.io/blog/posts/20260223/))

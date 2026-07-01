@@ -15,6 +15,8 @@ image: /img/2026-07-01/ogp.jpg
 
 [**→ English version**](https://hi120ki.github.io/blog/posts/20260701/)
 
+![AI Security Action Items for the Second Half of 2026](/img/2026-07-01/img.jpg)
+
 ## 2026年前半を振り返って
 
 2026年前半で最も大きな変化は、AIエージェント・プラットフォームのエコシステムが一気に成熟したことです。年初はまだ実験的だった要素が、クラウド移行期に各社がベストプラクティスを揃えていったのと同じように、整備フェーズへと入ってきたと感じています。([Agent Platformに必要なセキュリティ対策まとめ](https://hi120ki.github.io/ja/blog/posts/20260223/))
