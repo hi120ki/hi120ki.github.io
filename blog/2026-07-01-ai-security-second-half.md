@@ -108,3 +108,10 @@ Many of the items I wrote at the start of the year as needing to "wait for futur
 Because much of AI Security work is foundational and easy to standardize, I feel it is equally important to document and share what you've implemented and deploy it with scalability in mind, while also making the impact visible alongside easy-to-understand metrics such as CIS benchmark achievement rates.
 
 I hope to make progress on various initiatives so that I can write the next installment half a year from now. Thank you for reading this far.
+
+## References
+
+- [AI Security Challenges in 2026](https://hi120ki.github.io/blog/posts/20260103/)
+- [Action Items for Agent Platform Security](https://hi120ki.github.io/blog/posts/20260223/)
+- [How Secure Are Claude Managed Agents?](https://hi120ki.github.io/blog/posts/20260413/)
+- [4 Insights from My First Year as an AI Security Engineer](https://hi120ki.github.io/blog/posts/20260524/)

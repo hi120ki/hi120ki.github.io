@@ -108,3 +108,10 @@ Anthropicは重要ソフトウェアをAI時代に向けて堅牢化する[Proje
 AI Securityの取り組みは、基盤的で共通化しやすいものが多いからこそ、実施した内容をドキュメント化して発信しスケーラビリティを意識した展開をするとともに、CISベンチマークの達成率のような分かりやすい指標とあわせて、インパクトが見える形にしていくことも同じくらい重要だと感じています。
 
 半年後にまたこの続きを書けるよう様々な取り組みを進めたいと思います。ここまで読んでいただき、ありがとうございました。
+
+## 参考
+
+- [2026年のAI Securityの挑戦](https://hi120ki.github.io/ja/blog/posts/20260103/)
+- [Agent Platformに必要なセキュリティ対策まとめ](https://hi120ki.github.io/ja/blog/posts/20260223/)
+- [Claude Managed Agentsはどこまで安全か？](https://hi120ki.github.io/ja/blog/posts/20260413/)
+- [AIセキュリティエンジニアが1年で得た4つの洞察](https://hi120ki.github.io/ja/blog/posts/20260524/)
