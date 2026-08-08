@@ -1,0 +1,29 @@
+# hi120ki
+
+> Security engineering documentation and technical articles about AI security, cloud security, GitHub security, penetration testing, and web performance.
+
+The canonical links below point to the English site. Japanese translations are available from the optional Japanese site link.
+
+## Documentation
+
+- [AI Security](https://hi120ki.github.io/docs/ai-security/intro/): Guidance for securing AI systems, agents, credentials, and MCP integrations.
+- [Cloud Security](https://hi120ki.github.io/docs/cloud-security/intro/): Notes on cloud security architecture and identity federation.
+- [GitHub Security](https://hi120ki.github.io/docs/github-security/intro/): Security controls and practices for GitHub organizations and applications.
+- [Penetration Testing](https://hi120ki.github.io/docs/pentest/intro/): Practical penetration-testing techniques, tools, and resources.
+- [Web Performance](https://hi120ki.github.io/docs/web-performance/intro/): Monitoring, analysis, and performance-tuning guidance for web services.
+
+## 2026 Blog Posts
+
+- [Designing and Operating an Agent Kill Switch](https://hi120ki.github.io/blog/posts/20260809/): How to design, trigger, and operate kill switches for AI agents without treating them as a security silver bullet.
+- [AI Security Action Items for the Second Half of 2026](https://hi120ki.github.io/blog/posts/20260701/): Prioritized actions for agent identity, authorization, tool permissions, sandboxing, and monitoring.
+- [4 Insights from My First Year as an AI Security Engineer](https://hi120ki.github.io/blog/posts/20260524/): Lessons about AI security engineering, agent architecture, standards, and risk management.
+- [How Secure Are Claude Managed Agents?](https://hi120ki.github.io/blog/posts/20260413/): A security review of Claude Managed Agents and its hosted agent infrastructure.
+- [Action Items for Agent Platform Security](https://hi120ki.github.io/blog/posts/20260223/): Concrete controls for sandboxing, networks, credentials, permissions, and auditability on agent platforms.
+- [AI Security Challenges in 2026](https://hi120ki.github.io/blog/posts/20260103/): Industry-wide AI security challenges and practical action items for 2026.
+
+## Optional
+
+- [Blog](https://hi120ki.github.io/blog/): Complete archive of technical articles.
+- [Japanese site](https://hi120ki.github.io/ja/): Japanese documentation and translated articles.
+- [GitHub profile](https://github.com/hi120ki): Open-source projects and source repositories.
+- [Sitemap](https://hi120ki.github.io/sitemap.xml): Complete index of public English URLs.

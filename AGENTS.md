@@ -37,6 +37,14 @@
 - For new locale strings, run `npm run translate` and commit the generated `i18n/` updates.
 - Keep URLs, code fences, and frontmatter consistent with neighboring documents.
 
+## LLM Discovery
+
+- Keep `static/llms.txt` as the manually curated LLM discovery file served at `/llms.txt`; do not add a separate locale-specific source file.
+- Update it whenever publishing a blog post or adding a major documentation entry that should be discoverable by LLM clients.
+- List blog posts newest first and use canonical absolute URLs with short, accurate descriptions.
+- Keep secondary resources, including the Japanese site, in the `Optional` section so the primary context remains concise.
+- After editing it, run `npm run build` and confirm `static/llms.txt` matches `build/llms.txt`.
+
 ## Commit & Pull Request Guidelines
 
 - Commits: present-tense summaries (e.g., `Add hero card`); group related changes; avoid noisy reformat-only commits.
