@@ -74,6 +74,16 @@ const config: Config = {
     ],
   ],
 
+  plugins: [
+    [
+      "docusaurus-plugin-copy-page-button",
+      {
+        enabledActions: ["copy", "view"],
+        placement: "auto",
+      },
+    ],
+  ],
+
   themeConfig: {
     // Replace with your project's social card
     image: "img/docusaurus-social-card.jpg",

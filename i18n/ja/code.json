@@ -321,5 +321,20 @@
   "theme.navbar.mobileDropdown.collapseButton.collapseAriaLabel": {
     "message": "Collapse the dropdown",
     "description": "The ARIA label of the button to collapse the mobile dropdown navbar item"
+  },
+  "copyPageButton.button.label": {
+    "message": "ページをコピー"
+  },
+  "copyPageButton.copy.title": {
+    "message": "Markdownとしてコピー"
+  },
+  "copyPageButton.copy.description": {
+    "message": "このページをMarkdownとしてコピー"
+  },
+  "copyPageButton.view.title": {
+    "message": "Markdownで表示"
+  },
+  "copyPageButton.view.description": {
+    "message": "このページをプレーンテキストで表示"
   }
 }

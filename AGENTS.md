@@ -6,6 +6,7 @@
 - Content: docs in `docs/`, blog posts in `blog/`, static assets in `static/`, localized strings in `i18n/`.
 - UI code: reusable components in `src/components/`, pages and layout overrides in `src/pages/`, global styles in `src/css/`.
 - Build output lands in `build/` (generated; do not edit directly).
+- Do not add or commit agent-generated planning artifacts such as `docs/superpowers/`; keep repository documentation limited to project-facing content.
 
 ## Build, Test, and Development Commands
 
