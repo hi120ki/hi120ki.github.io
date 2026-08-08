@@ -15,6 +15,8 @@ That is why kill switches keep coming up as one way to stop destructive changes 
 
 <!-- truncate -->
 
+**[→ 日本語版 / Japanese version](https://hi120ki.github.io/ja/blog/posts/20260809/)**
+
 At the same time, a kill switch only makes sense once the basic agent security ecosystem has matured, and treating the switch itself as a silver bullet is a mistake. What follows walks through how that security ecosystem develops, and then why a kill switch is needed, what it actually buys you, and how to implement one.
 
 ## A roadmap for agent security
