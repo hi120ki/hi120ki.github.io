@@ -1,6 +1,6 @@
 ---
 title: エージェントキルスイッチの設計と運用
-description: エージェントキルスイッチの設計と運用
+description: "キルスイッチはボタン一つではなく、検知・判断・強制・証跡保全・巻き戻しを担うエージェント外部の制御プレーンです。プロンプト指示やプロセス停止・権限剥奪では止まらない理由を挙げ、非バイパス性やfail-closed・段階的な停止スコープといった要件を示します。"
 authors: [hi120ki]
 tags: [AI, Security, LLM, Agent, MCP, OAuth]
 slug: posts/20260809

@@ -1,6 +1,6 @@
 ---
 title: "[Vagrant] 古いバージョンの Box を削除する"
-description: "Vagrantで古いバージョンの Box を削除する"
+description: "vagrant box updateを繰り返して溜まった古いboxは、vagrant box removeに--box-versionを付けてバージョンを指定して削除できます。box removeのオプションも一覧で載せています。"
 authors: [hi120ki]
 tags: [Vagrant]
 slug: posts/20190203

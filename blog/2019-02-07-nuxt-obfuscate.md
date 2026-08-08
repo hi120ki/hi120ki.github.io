@@ -1,6 +1,6 @@
 ---
 title: "Nuxt.js プロジェクトで JavaScript を難読化"
-description: "Nuxt.js プロジェクトで JavaScript を難読化する"
+description: "Nuxt.jsプロジェクトにwebpack-obfuscatorを入れてnuxt.config.jsのbuild.pluginsに設定し、stringArrayEncodingやdeadCodeInjectionなど主要オプションの働きとパフォーマンスへの影響を整理しました。"
 authors: [hi120ki]
 tags: [Web, Nuxt.js, webpack, Web Security]
 slug: posts/20190207

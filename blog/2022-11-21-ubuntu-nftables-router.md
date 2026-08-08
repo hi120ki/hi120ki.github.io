@@ -1,6 +1,6 @@
 ---
 title: "Ubuntu22.04のnftablesでルーターを作る"
-description: "Ubuntu22.04のnftablesでルーターを作る"
+description: "udevでインターフェイス名を固定しnetplanでブリッジを作り、nftablesのNATマスカレードとdocker composeのDHCPサーバーでR86Sをルーター化する手順。iperf3の実測は9.3Gbpsでした。"
 authors: [hi120ki]
 tags: [Ubuntu, network]
 slug: posts/20221121

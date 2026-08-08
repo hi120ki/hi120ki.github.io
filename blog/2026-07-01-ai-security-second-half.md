@@ -1,6 +1,6 @@
 ---
 title: AI Security Action Items for the Second Half of 2026
-description: AI Security Action Items for the Second Half of 2026
+description: "Priorities for the next six months, from full Okta Cross-App Access rollout and an agent identity model to tool-level MCP permissions, sandbox standardization, audit logs that attribute agent actions, AI SBOM, and Shadow AI discovery."
 authors: [hi120ki]
 tags: [AI, Security, LLM, Agent, MCP, OAuth]
 slug: posts/20260701

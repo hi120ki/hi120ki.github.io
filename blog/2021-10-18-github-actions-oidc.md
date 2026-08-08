@@ -1,6 +1,6 @@
 ---
 title: "GitHub ActionsでIAM Roleを使うときのOIDC issuer変更"
-description: "GitHub ActionsでIAM Roleを使うときのOIDC issuer変更"
+description: "GitHubのOIDC issuerがvstokenからtokenのホストへ変わったため、AssumeRoleWithWebIdentityがInvalidIdentityTokenで失敗します。IAM RoleのConditionとOIDCProviderのUrlを新しいissuerへ書き換えるCloudFormationの例を載せています。"
 authors: [hi120ki]
 tags: [AWS]
 slug: posts/20211018

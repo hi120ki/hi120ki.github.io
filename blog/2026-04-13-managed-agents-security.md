@@ -1,6 +1,6 @@
 ---
 title: How Secure Are Claude Managed Agents?
-description: How Secure Are Claude Managed Agents?
+description: "Claude Managed Agents keeps credentials out of the sandbox by splitting Brain from Hands. A review of its sandbox, network limits, and vault sharing finds gaps in runtime monitoring, output filtering, and multi-user access."
 authors: [hi120ki]
 tags: [AI, Security, LLM, Agent, MCP]
 slug: posts/20260413

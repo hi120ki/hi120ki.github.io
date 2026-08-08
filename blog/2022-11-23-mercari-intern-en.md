@@ -1,6 +1,6 @@
 ---
 title: "My Internship experience in Mercari"
-description: "My Internship experience in Mercari"
+description: "How I found and landed Mercari's security engineering internship, plus the weekly apartment, the Roppongi office, team lunches, and what the security team's open culture is like."
 authors: [hi120ki]
 tags: [Internship]
 slug: posts/20221123

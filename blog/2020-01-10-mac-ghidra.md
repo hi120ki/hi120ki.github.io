@@ -1,6 +1,6 @@
 ---
 title: "MacでGhidraを動かす"
-description: "Mac で Ghidra を動かす"
+description: "HomebrewでOpenJDKを入れ、Ghidraのzipを解凍してghidraRunで起動し、aliasの登録やバイナリの逆コンパイル表示までを画像付きで追います。"
 authors: [hi120ki]
 tags: [CTF, Reversing]
 slug: posts/20200110

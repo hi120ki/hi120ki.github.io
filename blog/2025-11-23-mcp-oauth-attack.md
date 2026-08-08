@@ -1,6 +1,6 @@
 ---
 title: "Weaponize the MCP - OAuth Phishing and Mitigations"
-description: "Weaponize the MCP - OAuth Phishing and Mitigations"
+description: "Unauthenticated dynamic client registration gives attackers an anonymous way to register OAuth clients for consent phishing that passkeys and PKCE don't stop. Covers mitigations for authorization server operators and the move to Client ID Metadata Documents."
 authors: [hi120ki]
 tags: [AI, Security, MCP, OAuth]
 slug: posts/20251123

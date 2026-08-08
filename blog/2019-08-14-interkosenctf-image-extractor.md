@@ -1,6 +1,6 @@
 ---
 title: "InterKosenCTF Image Extractor writeup"
-description: "InterKosenCTF Image Extractor writeup"
+description: "docxから画像を抜き出すRubyのサービスのソースを読み、flagへのシンボリックリンクを含むzipをアップロードしてunzipに展開させ、ダウンロード機能で中身を得ます。"
 authors: [hi120ki]
 tags: [CTF, Web, Web Security]
 slug: posts/20190814

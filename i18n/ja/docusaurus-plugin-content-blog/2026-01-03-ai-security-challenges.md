@@ -1,6 +1,6 @@
 ---
 title: 2026年のAI Securityの挑戦
-description: 2026年のAI Securityの挑戦
+description: "2025年に対策が定着したMCP Security・Confused Deputy Problem・Agents Rule of Twoを振り返ります。2026年はAI BrowserやAgentic Opsの導入判断・Agent Platformへの集約・Prompt Guardrailの調整・Okta XAAとCIMDへの移行が課題になります。"
 authors: [hi120ki]
 tags: [AI, Security, LLM, Agent, MCP, OAuth]
 slug: posts/20260103

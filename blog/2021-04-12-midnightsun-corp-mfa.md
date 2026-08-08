@@ -1,6 +1,6 @@
 ---
 title: "Midnight Sun CTF 2021 Corporate mfa writeup"
-description: "Midnight Sun CTF 2021 Corporate mfa writeup"
+description: "A web challenge where the bcrypt hash comes straight from the PHP manual and a serialized reference makes the MFA field point at the random correct value, passing verification."
 authors: [hi120ki]
 tags: [CTF, Web, Web Security]
 slug: posts/20210412

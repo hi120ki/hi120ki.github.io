@@ -1,6 +1,6 @@
 ---
 title: Designing and Operating an Agent Kill Switch
-description: Designing and Operating an Agent Kill Switch
+description: "A kill switch stops nothing on its own. Prompt instructions, process kills, and credential revocation all fall short, so stopping takes a control plane outside the agent with staged shutdown, layered enforcement, and tamper-proof evidence."
 authors: [hi120ki]
 tags: [AI, Security, LLM, Agent, MCP, OAuth]
 slug: posts/20260809

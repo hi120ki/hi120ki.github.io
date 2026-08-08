@@ -1,6 +1,6 @@
 ---
 title: "外部公開するDockerイメージを作るときは COPY . に気をつけよう"
-description: "外部公開するDockerイメージを作るときは COPY . に気をつけよう"
+description: ".gitフォルダーとDockerfileが同じ階層にある状態でCOPYにカレントディレクトリを指定すると、公開したDockerイメージに.gitが残り過去にcommitした機密情報を読み取られます。.dockerignoreに.gitを指定すれば防げます。"
 authors: [hi120ki]
 tags: [Docker, Git, Security]
 slug: posts/20210502

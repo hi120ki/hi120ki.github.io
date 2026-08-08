@@ -1,6 +1,6 @@
 ---
 title: Action Items for Agent Platform Security
-description: Action Items for Agent Platform Security
+description: "OpenClaw and remote coding agents assume file system, shell, and network access, so the platform sets the ceiling on damage. Covers sandboxing, egress allowlists, credential injection proxies, signed commits through the GitHub GraphQL API, observability, and shared LLM memory."
 authors: [hi120ki]
 tags: [AI, Security, LLM, Agent, MCP]
 slug: posts/20260223

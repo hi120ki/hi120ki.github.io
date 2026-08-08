@@ -1,6 +1,6 @@
 ---
 title: AI Security Challenges in 2026
-description: AI Security Challenges in 2026
+description: "MCP supply chain risk, the confused deputy problem, and the lethal trifecta shaped 2025. The 2026 action items cover AI browsers, computer use, agent platforms, sandboxes, prompt guardrail tuning, Okta Cross App Access, and MCP client ID metadata documents."
 authors: [hi120ki]
 tags: [AI, Security, LLM, Agent, MCP, OAuth]
 slug: posts/20260103

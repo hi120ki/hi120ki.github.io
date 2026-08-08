@@ -1,6 +1,6 @@
 ---
 title: "SECCON Beginners CTF 2023 Reversing 作問者writeup"
-description: "SECCON Beginners CTF 2023 Reversing 作問者writeup"
+description: "stringsでフラグが見つかるHalf・Ghidraで3分割された配列を復元するThree・strippedバイナリをGDBのjumpでフラグ表示関数に飛ばすPoker・変形RC4とpcapで復号するLeakの解法を書いています。"
 authors: [hi120ki]
 tags: [CTF, SECCON, ctf4b]
 slug: posts/20230605

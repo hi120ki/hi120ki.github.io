@@ -1,6 +1,6 @@
 ---
 title: "Sensitive information is leaked from .git folder that remains in public Docker image"
-description: "Sensitive information is leaked from .git folder that remains in public Docker image"
+description: "A COPY of the current directory pulls the neighboring .git folder into the image, so secrets you committed and never removed ship with it. Adding .git to .dockerignore stops that."
 authors: [hi120ki]
 tags: [Docker, Git, Security]
 slug: posts/20210503

@@ -1,6 +1,6 @@
 ---
 title: "Pragyan CTF 2019 Decode This writeup"
-description: "Pragyan CTF 2019 Decode This writeup"
+description: "Pragyan CTF 2019のDecode Thisで、2文字ずつ変換するアフィン暗号の鍵をmod 26の4値として全探索し、平文にpctfが含まれる手掛かりから鍵を特定してciphertextを復号しました。"
 authors: [hi120ki]
 tags: [CTF, Encoding]
 slug: posts/20190313

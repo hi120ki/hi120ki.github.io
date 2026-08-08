@@ -1,6 +1,6 @@
 ---
 title: "SECCON Beginners CTF 2021【Web】json 作問者writeup"
-description: "SECCON Beginners CTF 2021【Web】json 作問者writeup"
+description: "Nginxのproxy_set_header設定の不備を突いてX-Forwarded-Forでアクセス元IPを偽装し、goの標準ライブラリとjsonparserの二重キー解釈の差異でBFFのFlag取得ブロックを回避します。"
 tags: [CTF, SECCON, ctf4b]
 slug: posts/20210523-2
 authors: [hi120ki]

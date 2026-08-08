@@ -1,6 +1,6 @@
 ---
 title: "MCPのOAuth Phishingへの悪用と対策"
-description: "MCPのOAuth Phishingへの悪用と対策"
+description: "MCPが推奨する認証なしDynamic Client Registrationは、審査のないOAuthクライアント登録を許しOAuth Phishingの起点になります。正規ドメイン起点でパスキーもPKCEも効かず、スコープ制限・Callback URLの監視・Client ID Metadata Documentsへの移行で軽減します。"
 authors: [hi120ki]
 tags: [AI, Security, MCP, OAuth]
 slug: posts/20251123

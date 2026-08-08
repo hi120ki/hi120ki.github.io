@@ -1,6 +1,6 @@
 ---
 title: "BSides Noida CTF 2021 Basic Notepad writeup"
-description: "BSides Noida CTF 2021 Basic Notepad writeup"
+description: "A web challenge where the token parameter lands in the CSP report-uri, so injecting script-src-attr unsafe-inline lets an onerror handler run and exfiltrate document.cookie."
 authors: [hi120ki]
 tags: [CTF, Web, Web Security]
 slug: posts/20210808

@@ -1,6 +1,6 @@
 ---
 title: "SECCON Beginners CTF 2022【Reversing】Quiz Recursive Ransom 作問者writeup"
-description: "SECCON Beginners CTF 2022【Reversing】Quiz Recursive Ransom 作問者writeup"
+description: "stringsだけでフラグが取れるQuiz・Ghidraで再帰的な文字列照合を追うRecursive・pcapから拾ったRC4鍵で暗号化ファイルを復号するRansomの解法をまとめています。"
 authors: [hi120ki]
 tags: [CTF, SECCON, ctf4b]
 slug: posts/20220605-1

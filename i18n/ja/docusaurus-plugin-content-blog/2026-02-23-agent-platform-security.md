@@ -1,6 +1,6 @@
 ---
 title: Agent Platformに必要なセキュリティ対策まとめ
-description: Agent Platformに必要なセキュリティ対策まとめ
+description: "OpenClawやRemote Coding Agentはファイルシステム・シェル・ネットワークへの広範なアクセスを前提に動くため、実行基盤側で被害の上限を決める設計が要ります。サンドボックス隔離・通信先の許可リスト・認証情報付与プロキシ・行動ログ・共有LLMメモリの分離が対策の柱になります。"
 authors: [hi120ki]
 tags: [AI, Security, LLM, Agent, MCP]
 slug: posts/20260223

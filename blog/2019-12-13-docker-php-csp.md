@@ -1,6 +1,6 @@
 ---
 title: "Docker版 PHP で CSP を設定する 【Dockerfile】"
-description: "Docker版 PHP で CSP を設定する 【Dockerfile】"
+description: "PHP公式のapacheイメージでa2enmod headersを有効にし、conf-enabledに置いた設定ファイルからContent-Security-PolicyやCORSのヘッダーを付与します。"
 authors: [hi120ki]
 tags: [Web, Web Security]
 slug: posts/20191213

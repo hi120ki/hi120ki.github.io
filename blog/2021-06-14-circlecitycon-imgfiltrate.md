@@ -1,6 +1,6 @@
 ---
 title: "Circle City Con CTF 2021 imgfiltrate writeup"
-description: "Circle City Con CTF 2021 imgfiltrate writeup"
+description: "A web challenge where a fixed CSP nonce enables XSS, canvas turns the flag image only the admin sees into base64, and a script src leaks it in three chunks."
 authors: [hi120ki]
 tags: [CTF, Web, Web Security]
 slug: posts/20210614
