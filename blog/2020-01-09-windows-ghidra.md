@@ -1,6 +1,6 @@
 ---
 title: "WindowsでGhidraを動かす"
-description: "WindowsでGhidraを動かす"
+description: "wingetやChocolateyでOpenJDKを入れ、GhidraのzipをダウンロードしてghidrarunからGUIを起動し、新規プロジェクトにバイナリを読み込ませるまでを画像付きで追います。"
 authors: [hi120ki]
 tags: [Windows, Ghidra, Reverse Engineering]
 slug: posts/20200109

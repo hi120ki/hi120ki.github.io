@@ -1,6 +1,6 @@
 ---
 title: 2026年後半のAI Securityでやるべきこと
-description: 2026年後半のAI Securityでやるべきこと
+description: "Okta Cross-App Accessの本格導入とログ監視を起点に、エージェントアイデンティティの確立・機密情報のテナント分離・MCPのツール単位の権限制限・Sandboxの標準化を挙げます。監査ログと危険行動アラート・AI SBOMと回復可能性・Shadow AI対策も並べます。"
 authors: [hi120ki]
 tags: [AI, Security, LLM, Agent, MCP, OAuth]
 slug: posts/20260701

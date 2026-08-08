@@ -1,6 +1,6 @@
 ---
 title: "picoCTF 2019 web 300 Irish-Name-Repo 1 write-up"
-description: "picoCTF 2019 web 300 Irish-Name-Repo 1 write-up"
+description: "ログインフォームの隠しパラメータdebugを1にして発行されるSQL文を表示させ、パスワード欄に常に真となる条件式を入れるSQLインジェクションで認証を突破します。"
 authors: [hi120ki]
 tags: [CTF, Web, Web Security]
 slug: posts/20191225

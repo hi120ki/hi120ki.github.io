@@ -1,6 +1,6 @@
 ---
 title: "ブログを開設しました"
-description: "ブログを開設しました"
+description: "HugoをHomebrewでインストールし、テーマをgit submoduleで追加してローカルサーバーで表示を確認し、出力した静的ファイルをGitHub Pagesのリポジトリへpushして公開するまでの手順をまとめました。"
 authors: [hi120ki]
 tags: [Web, Blog, Hugo, GitHub]
 slug: posts/20190122

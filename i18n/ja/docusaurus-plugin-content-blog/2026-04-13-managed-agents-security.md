@@ -1,6 +1,6 @@
 ---
 title: Claude Managed Agentsはどこまで安全か？
-description: Claude Managed Agentsはどこまで安全か？
+description: "Claude Managed AgentsはCredential VaultとBrain・Handsの分離で認証情報をサンドボックスから隔離します。その構造を追った上で、ランタイム監視と出力フィルタリングの不足やワークスペース共有が生むConfused Deputy Problemへの対処を扱います。"
 authors: [hi120ki]
 tags: [AI, Security, LLM, Agent, MCP]
 slug: posts/20260413

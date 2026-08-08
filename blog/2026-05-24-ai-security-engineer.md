@@ -1,6 +1,6 @@
 ---
 title: 4 Insights from My First Year as an AI Security Engineer
-description: 4 Insights from My First Year as an AI Security Engineer
+description: "Waiting a month before rollout, treating an agent as four variables of input, output, tools, and system prompt, revising security standards as agents change them, and tracking where the field heads next."
 authors: [hi120ki]
 tags: [AI, Security, LLM, Agent, MCP]
 slug: posts/20260524

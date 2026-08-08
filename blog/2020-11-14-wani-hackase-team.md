@@ -1,6 +1,6 @@
 ---
 title: "CTFチームWani Hackaseの運営方法"
-description: "CTFチームWani Hackaseの運営方法"
+description: "分野ごとに役割を分担して大会に参加し、毎週の勉強会ではメンバーが作問するBeginnersCTFで得意分野以外の知識を補っています。Attack&Defence CTFの内部開催や、B1とB2が不在というメンバー不足の課題もあります。"
 authors: [hi120ki]
 tags: [CTF, Team]
 slug: posts/20201114

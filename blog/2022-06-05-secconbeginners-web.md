@@ -1,6 +1,6 @@
 ---
 title: "SECCON Beginners CTF 2022【Web】Util Ironhand 作問者writeup"
-description: "SECCON Beginners CTF 2022【Web】Util Ironhand 作問者writeup"
+description: "pingのアドレス検査をリクエストの直接編集で抜けてOSコマンドを実行するUtilと、二重URLエンコードでnginxを通しパストラバーサルでJWT_SECRET_KEYを読み出してadminトークンを偽造するIronhandの解法を書いています。"
 authors: [hi120ki]
 tags: [CTF, SECCON, ctf4b]
 slug: posts/20220605-2

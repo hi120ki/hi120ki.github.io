@@ -1,6 +1,6 @@
 ---
 title: "PythonでRSA公開鍵を読み込む"
-description: "PythonでRSA公開鍵を読み込む"
+description: "pycryptodomeをpipでインストールし、PEM形式のRSA公開鍵をRSA.importKeyで読み込んで冪指数eと公開鍵nを取り出します。"
 authors: [hi120ki]
 tags: [CTF, RSA, Cryptography]
 slug: posts/20190412

@@ -1,6 +1,6 @@
 ---
 title: "HSCTF 2019 Networked Password writeup"
-description: "HSCTF 2019 Networked Password writeup"
+description: "A web challenge where the password form leaks correct characters through response time, so a requests script picks the slowest guess and rebuilds the flag character by character."
 authors: [hi120ki]
 tags: [CTF, Web, Web Security]
 slug: posts/20190606

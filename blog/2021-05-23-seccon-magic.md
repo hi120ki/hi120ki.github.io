@@ -1,6 +1,6 @@
 ---
 title: "SECCON Beginners CTF 2021【Web】magic 作問者writeup"
-description: "SECCON Beginners CTF 2021【Web】magic 作問者writeup"
+description: "MagicLinkで攻撃対象を自分のアカウントへログインさせ、メモのXSSを発火させます。tokenを反射するAPIをscriptとして読み込みCSPのscript-src selfを回避し、String.fromCharCodeでHTMLエスケープを避けてLocalStorageのフラグを抜き出します。"
 tags: [CTF, SECCON, ctf4b]
 slug: posts/20210523-3
 authors: [hi120ki]

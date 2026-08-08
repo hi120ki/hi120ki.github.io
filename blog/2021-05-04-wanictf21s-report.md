@@ -1,6 +1,6 @@
 ---
 title: "WaniCTF'21-spring 開催記"
-description: "WaniCTF'21-spring 開催記"
+description: "353名が参加したWaniCTF'21-springでは、問題をスコアサーバーへ自動同期するWaniCTFdCLIをGitHub Actionsに組み込み、監視をNewRelicとGrafanaで行いました。headless chromeのtimeout未設定でWeb問題サーバーが1時間停止しました。"
 authors: [hi120ki]
 tags: [CTF, WaniCTF, Writeup]
 slug: posts/20210504

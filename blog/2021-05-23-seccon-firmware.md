@@ -1,6 +1,6 @@
 ---
 title: "SECCON Beginners CTF 2021【Reversing】firmware 作問者writeup"
-description: "SECCON Beginners CTF 2021【Reversing】firmware 作問者writeup"
+description: "binwalkで抽出できない疑似ファームウェアからバイナリエディタでARM向けELFを切り出し、Ghidraでソケット通信を解析して0x53とのXOR比較値からフラグを復元します。SECCON Beginners CTF 2021のReversing問題firmwareの作問者writeupです。"
 authors: [hi120ki]
 tags: [CTF, SECCON, Firmware]
 slug: posts/20210523-1

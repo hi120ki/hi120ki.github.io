@@ -1,6 +1,6 @@
 ---
 title: "Harekaze CTF 2019 Encode & Encode writeup"
-description: "Harekaze CTF 2019 Web Encode writeup"
+description: "禁止語を正規表現で弾くPHPのWAFをJSONのUnicodeエスケープで回避し、PHPの変換フィルタでflagをbase64エンコードしてpreg_replaceの検閲を抜けます。"
 authors: [hi120ki]
 tags: [CTF, Web, Web Security]
 slug: posts/20190529

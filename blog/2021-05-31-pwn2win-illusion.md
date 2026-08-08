@@ -1,6 +1,6 @@
 ---
 title: "Pwn2Win CTF 2021 Illusion writeup"
-description: "Pwn2Win CTF 2021 Illusion writeup"
+description: "A web challenge where unpatched fast-json-patch allows prototype pollution of the ejs outputFunctionName option, giving RCE that runs readflag when a template renders."
 authors: [hi120ki]
 tags: [CTF, Web, Web Security]
 slug: posts/20210531
