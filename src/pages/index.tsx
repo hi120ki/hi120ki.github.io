@@ -172,6 +172,19 @@ export default function Home(): ReactNode {
                 text: "Authored comprehensive security guidelines for cloud-hosted AI agent environments, covering areas such as sandboxing, network controls, credential management, observability, prompt filtering, and supply chain security.",
                 publications: [
                   {
+                    title: "Designing and Operating an Agent Kill Switch",
+                    url: "https://hi120ki.github.io/blog/posts/20260809/",
+                  },
+                  {
+                    title:
+                      "AI Security Action Items for the Second Half of 2026",
+                    url: "https://hi120ki.github.io/blog/posts/20260701/",
+                  },
+                  {
+                    title: "How Secure Are Claude Managed Agents?",
+                    url: "https://hi120ki.github.io/blog/posts/20260413/",
+                  },
+                  {
                     title: "Action Items for Agent Platform Security",
                     url: "https://hi120ki.github.io/blog/posts/20260223/",
                   },
@@ -184,6 +197,26 @@ export default function Home(): ReactNode {
               {
                 text: "Conducted AI-specific security reviews for internal and external AI products, identifying risks such as prompt injection, data leakage, and unsafe agent behavior. Developed and maintained company-wide AI security guidelines and led organization-wide training programs.",
                 publications: [
+                  {
+                    title:
+                      "Mercari’s AI Security and Governance Practices for Accelerating Company-Wide Agent Adoption",
+                    url: "https://speakerdeck.com/hi120ki/mercari-ai-security-conference-2026",
+                  },
+                  {
+                    title:
+                      "How Mercari Enables Company-Wide Claude Code Adoption and Shadow AI Countermeasures",
+                    url: "https://atmarkit.itmedia.co.jp/ait/spv/2608/04/news002.html",
+                  },
+                  {
+                    title:
+                      "AI Governance Insights from Mercari: Surviving the AI Warring States Era",
+                    url: "https://atmarkit.itmedia.co.jp/ait/articles/2606/05/news018.html",
+                  },
+                  {
+                    title:
+                      "4 Insights from My First Year as an AI Security Engineer",
+                    url: "https://hi120ki.github.io/blog/posts/20260524/",
+                  },
                   {
                     title:
                       "How Mercari’s AI Security Team is Securing AI Native",
@@ -203,6 +236,10 @@ export default function Home(): ReactNode {
               {
                 text: "Designed automated security check architecture for n8n AI workflows and mentored a junior engineer through implementation. Built a secure Devin Enterprise management platform in Go and GitHub Actions, including a custom Terraform provider, automated secret rotation, and API key lifecycle controls.",
                 publications: [
+                  {
+                    title: "Barriers to Safe Devin Adoption and Automation",
+                    url: "https://speakerdeck.com/hi120ki/devin-agent-harness-token-management",
+                  },
                   {
                     title:
                       "Enabling AI Usage at Mercari with Secure Devin Management",
